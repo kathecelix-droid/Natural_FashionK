@@ -238,7 +238,7 @@ const ProductosUno = [
     id: 17,
     nombre: "Dúo Velvet",
     precio: "10000",
-    ingredientes: "Su textura es ligera, son labiales lÃ­quidos, de acabado mate, semi cremoso. !Un dúo excepcional para tus labiosÂ¡",
+    ingredientes: "Su textura es ligera, son labiales lÃ­quidos, de acabado mate, semi cremoso. !Un dúo excepcional para tus labios¡",
     imagen: "/products/56.png",
     categoria: "Labiales"
   },
@@ -297,7 +297,7 @@ const ProductosUno = [
     id: 24,
     nombre: "Delineador Doble Cat Eye",
     precio: "16000",
-    ingredientes: "Delineador doble punta en color negro.En un extremo encuentras una estampita de â€œcola de gato y en el otro extremo tienes un plumón para lograr trazos finos.",
+    ingredientes: "Delineador doble punta en color negro.En un extremo encuentras una estampita de cola de gato y en el otro extremo tienes un plumón para lograr trazos finos.",
     imagen: "/products/90.png",
     categoria: "Delineadores"
   },
@@ -430,7 +430,7 @@ const ProductosUno = [
     id: 40,
     nombre: "Rubor lluminador Barra Retro Stick",
     precio: "22000",
-    ingredientes: "Â¡Un dúo infaltable te espera! Un maquillaje básico se vuelve premium con tan solo un rubor y un toque de iluminador.",
+    ingredientes: "¡Un dúo infaltable te espera! Un maquillaje básico se vuelve premium con tan solo un rubor y un toque de iluminador.",
     imagen: "/products/94.png",
     categoria: "Rostro"
   },
@@ -462,7 +462,7 @@ const ProductosUno = [
     id: 44,
     nombre: "Sombra Cosmos",
     precio: "26000",
-    ingredientes: "Â¡Nunca está de más un iluminador! El iluminador tiene un propósito en cada uno de los looks que quieres lograr y es elevar tu rostro. ",
+    ingredientes: "¡Nunca está de más un iluminador! El iluminador tiene un propósito en cada uno de los looks que quieres lograr y es elevar tu rostro. ",
     imagen: "/products/88.png",
     categoria: "Rostro"
   },
@@ -502,7 +502,7 @@ const ProductosUno = [
     id: 49,
     nombre: "Polvos Sueltos Master Touch",
     precio: "26000",
-    ingredientes: "Los polvos sueltos son un infaltable en la rutina de maquillaje ya que nos ayudan a sellar los productos cremosos para que su durabilidad sea más prolongada y evitar el exceso de sebo durante el dí.",
+    ingredientes: "Los polvos sueltos son un infaltable en la rutina de maquillaje ya que nos ayudan a sellar los productos cremosos para que su durabilidad sea más prolongada y evitar el exceso de sebo durante el día.",
     imagen: "/products/49.png",
     categoria: "Rostro"
   },
