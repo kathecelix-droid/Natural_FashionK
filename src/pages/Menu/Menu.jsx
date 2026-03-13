@@ -181,7 +181,7 @@ const ProductosUno = [
     id: 10,
     nombre: "Labiales Matte",
     precio: "8000",
-    ingredientes: "Pan brioche, carne artesanal 120g, chorizo, tocineta, maiz tierno, cebolla caramelizada,verduras frescas",
+    ingredientes: "Delinea tus labios con un lápiz cremoso para crear volumen, después aplica una capa no tan gruesa del labial sobre tus labios y deja secar muy bien. ",
     imagen: "/products/46.png",
     categoria: "Labiales"
   },
@@ -330,7 +330,7 @@ const ProductosUno = [
     id: 28,
     nombre: "Lápiz de ojos Trendy",
     precio: "13000",
-    ingredientes: "El Delineador En Plumón Pin Up Trendy es a prueba de agua, sudor o calor. ",
+    ingredientes: "",
     imagen: "/products/59.png",
     categoria: "Delineadores"
   },
@@ -486,7 +486,7 @@ const ProductosUno = [
     id: 47,
     nombre: "Kit De Cejas Villanos ",
     precio: "15000",
-    ingredientes: "Mantén tu maquillaje intacto y a prueba de todo con el Fijador Dreams.",
+    ingredientes: "Con una brocha aplica la pomada para definir las cejas. Usa el polvo para fijar la pomada y así asegurar su duración. Para dar un toque de brillo, aplica el iluminador debajo del arco de tu ceja",
     imagen: "/products/100.png",
     categoria: "Rostro"
   },
