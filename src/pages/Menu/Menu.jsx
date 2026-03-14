@@ -1,4 +1,4 @@
-﻿import CardProduct from "../../Components/CardProduct";
+import CardProduct from "../../Components/CardProduct";
 import CardNav from "../../Components/CardNavCategoria";
 import "./Productos.css"
 import { IoCartOutline } from "react-icons/io5";
@@ -109,7 +109,7 @@ const ProductosUno = [
     id: 1,
     nombre: "Labial Doble + Gloss",
     precio: "16000",
-    ingredientes: "El dúo dinámico para un maquillaje de labios completo y de impacto",
+    descripcion: "El dúo dinámico para un maquillaje de labios completo y de impacto",
     imagen: "/products/15.png",
     categoria: "Labiales"
   },
@@ -117,7 +117,7 @@ const ProductosUno = [
     id: 2,
     nombre: "Tinta School",
     precio: "12000",
-    ingredientes: "A base de agua pero en los labios se siente más especita. !Un tono rojizo Increíble¡",
+    descripcion: "A base de agua pero en los labios se siente más especita. !Un tono rojizo Increíble¡",
     imagen: "/products/12.png",
     categoria: "Labiales"
   },
@@ -125,7 +125,7 @@ const ProductosUno = [
     id: 3,
     nombre: "Retro Gloss Trendy",
     precio: "7000",
-    ingredientes: "Tonos nudes, rosas y rojos. Algunos tienen un leves destellos sanitados, aportan un glow Increíble y sutil",
+    descripcion: "Tonos nudes, rosas y rojos. Algunos tienen un leves destellos sanitados, aportan un glow Increíble y sutil",
     imagen: "/products/13.png",
     categoria: "Labiales"
   },
@@ -133,7 +133,7 @@ const ProductosUno = [
     id: 4,
     nombre: "Mini Matte",
     precio: "6500",
-    ingredientes: "!Están de regreso¡. Una presentación hermosa, muy pigmentados y de excelente calidad.",
+    descripcion: "!Están de regreso¡. Una presentación hermosa, muy pigmentados y de excelente calidad.",
     imagen: "/products/11.png",
     categoria: "Labiales"
   },
@@ -141,7 +141,7 @@ const ProductosUno = [
     id: 5,
     nombre: "Tigger Lips",
     precio: "8000",
-    ingredientes: "Amado y vendito gloss de los 2000's. Una tendencia que durará para siempre",
+    descripcion: "Amado y vendito gloss de los 2000's. Una tendencia que durará para siempre",
     imagen: "/products/5.png",
     categoria: "Labiales"
   },
@@ -149,7 +149,7 @@ const ProductosUno = [
     id: 6,
     nombre: "BALM (Doble Perfect Match)",
     precio: "13000",
-    ingredientes: "Es un producto 2 en 1 para labios. Un brillo mágico y 1 labial en barra mate",
+    descripcion: "Es un producto 2 en 1 para labios. Un brillo mágico y 1 labial en barra mate",
     imagen: "/products/91.png",
     categoria: "Labiales"
   },
@@ -157,7 +157,7 @@ const ProductosUno = [
     id: 7,
     nombre: "Brillo Retáctil Beauty Glazed",
     precio: "16000",
-    ingredientes: "Funciona como un esfero retráctil, solo debes realizar presión en la zona amarilla del empaque.",
+    descripcion: "Funciona como un esfero retráctil, solo debes realizar presión en la zona amarilla del empaque.",
     imagen: "/products/78.png",
     categoria: "Labiales"
   },
@@ -165,7 +165,7 @@ const ProductosUno = [
     id: 8,
     nombre: "Hidratante Mágico Aloe Vera Trendy ",
     precio: "6000",
-    ingredientes: "Gracias a sus extractos mágicos, le aporta a tus labios un color rosadito que se define según el pH de tu piel",
+    descripcion: "Gracias a sus extractos mágicos, le aporta a tus labios un color rosadito que se define según el pH de tu piel",
     imagen: "/products/39.png",
     categoria: "Labiales"
   },
@@ -173,7 +173,7 @@ const ProductosUno = [
     id: 9,
     nombre: "Labial Cat Lips",
     precio: "15000",
-    ingredientes: "¡La solución perfecta para hidratar tus labios!. Nutre, hidrata y suaviza tus labios dejándolos con un aspecto saludable.",
+    descripcion: "¡La solución perfecta para hidratar tus labios!. Nutre, hidrata y suaviza tus labios dejándolos con un aspecto saludable.",
     imagen: "/products/42.png",
     categoria: "Labiales"
   },
@@ -181,7 +181,7 @@ const ProductosUno = [
     id: 10,
     nombre: "Labiales Matte",
     precio: "8000",
-    ingredientes: "Delinea tus labios con un lápiz cremoso para crear volumen, después aplica una capa no tan gruesa del labial sobre tus labios y deja secar muy bien. ",
+    descripcion: "Delinea tus labios con un lápiz cremoso para crear volumen, después aplica una capa no tan gruesa del labial sobre tus labios y deja secar muy bien. ",
     imagen: "/products/46.png",
     categoria: "Labiales"
   },
@@ -189,7 +189,7 @@ const ProductosUno = [
     id: 11,
     nombre: "Delineador De Labios Individual Love Lips",
     precio: "11000",
-    ingredientes: "Nos ayudan a enmarcar la forma natural de los labios haciendo que luzcan mucho más definidos con duración prolongada.",
+    descripcion: "Nos ayudan a enmarcar la forma natural de los labios haciendo que luzcan mucho más definidos con duración prolongada.",
     imagen: "/products/53.png",
     categoria: "Labiales"
   },
@@ -197,7 +197,7 @@ const ProductosUno = [
     id: 12,
     nombre: "Kit Intensamente",
     precio: "26000",
-    ingredientes: "El kit incluye un gloss voluminizador con destellos,un brillo de labios tono cerezay un delineador de labios",
+    descripcion: "El kit incluye un gloss voluminizador con destellos,un brillo de labios tono cerezay un delineador de labios",
     imagen: "/products/72.png",
     categoria: "Labiales"
   },
@@ -205,7 +205,7 @@ const ProductosUno = [
     id: 13,
     nombre: "Aura Gloss de Trendy",
     precio: "21000",
-    ingredientes: "es el brillo de labios perfecto para un acabado jugoso, brillante y ligero. Su fórmula hidratante evita la sensación pegajosa y deja los labios suaves",
+    descripcion: "es el brillo de labios perfecto para un acabado jugoso, brillante y ligero. Su fórmula hidratante evita la sensación pegajosa y deja los labios suaves",
     imagen: "/products/55.png",
     categoria: "Labiales"
   },
@@ -213,7 +213,7 @@ const ProductosUno = [
     id: 14,
     nombre: "Bálsamo Labial Hidratante",
     precio: "6000",
-    ingredientes: "Protege tus labios por completo con un solo producto.",
+    descripcion: "Protege tus labios por completo con un solo producto.",
     imagen: "/products/54.png",
     categoria: "Labiales"
   },
@@ -222,7 +222,7 @@ const ProductosUno = [
     id: 15,
     nombre: "Sweet Cream Gloss",
     precio: "7000",
-    ingredientes: "Cinco formas diferentes de lucir tus labios. Un perfecto para cada ocasión o cada dí.",
+    descripcion: "Cinco formas diferentes de lucir tus labios. Un perfecto para cada ocasión o cada dí.",
     imagen: "/products/57.png",
     categoria: "Labiales"
   },
@@ -230,7 +230,7 @@ const ProductosUno = [
     id: 16,
     nombre: "Brillo Holo Glam de Trendy",
     precio: "11000",
-    ingredientes: "Le dan un acabado tornasol y jugoso a cualquier maquillaje de labios. Contienen un leve aroma a chicle.",
+    descripcion: "Le dan un acabado tornasol y jugoso a cualquier maquillaje de labios. Contienen un leve aroma a chicle.",
     imagen: "/products/96.png",
     categoria: "Labiales"
   },
@@ -238,7 +238,7 @@ const ProductosUno = [
     id: 17,
     nombre: "Dúo Velvet",
     precio: "10000",
-    ingredientes: "Su textura es ligera, son labiales lÃ­quidos, de acabado mate, semi cremoso. !Un dúo excepcional para tus labios¡",
+    descripcion: "Su textura es ligera, son labiales lÃ­quidos, de acabado mate, semi cremoso. !Un dúo excepcional para tus labios¡",
     imagen: "/products/56.png",
     categoria: "Labiales"
   },
@@ -246,7 +246,7 @@ const ProductosUno = [
     id: 18,
     nombre: "Lip Gloss Barbie Vaquera",
     precio: "16000",
-    ingredientes: "Dale a tus labios un toque brillante y divertido con el Lip Gloss Edición Barbie Vaquera de Trendy. ",
+    descripcion: "Dale a tus labios un toque brillante y divertido con el Lip Gloss Edición Barbie Vaquera de Trendy. ",
     imagen: "/products/61.png",
     categoria: "Labiales"
   },
@@ -254,7 +254,7 @@ const ProductosUno = [
     id: 19,
     nombre: "Brillo Gloss Kiss Lips Trendy",
     precio: "8000",
-    ingredientes: "El brillo en los labios es obligatorio.Â¡Le agrega el plus ideal!. Aporta un brillo con color hermoso a tus labios.",
+    descripcion: "El brillo en los labios es obligatorio.Â¡Le agrega el plus ideal!. Aporta un brillo con color hermoso a tus labios.",
     imagen: "/products/62.png",
     categoria: "Labiales"
   },
@@ -262,7 +262,7 @@ const ProductosUno = [
     id: 20,
     nombre: "Delineador De Labios Jumbo Cupcake",
     precio: "7000",
-    ingredientes: "Los labios más definidos de la historia con un solo producto. Que tus delineadores de labios favoritos se acaben pronto ya no es un problema con los lápiz jumbo de Trendy.",
+    descripcion: "Los labios más definidos de la historia con un solo producto. Que tus delineadores de labios favoritos se acaben pronto ya no es un problema con los lápiz jumbo de Trendy.",
     imagen: "/products/97.png",
     categoria: "Labiales"
   },
@@ -271,7 +271,7 @@ const ProductosUno = [
     id: 21,
     nombre: "Brillo Gloss Maddie ",
     precio: "16000",
-    ingredientes: "Unos labios elegantes pero en tendencia. Un lip gloss con una tonalidad perfecta para cada dí, te llegan surtidos.",
+    descripcion: "Unos labios elegantes pero en tendencia. Un lip gloss con una tonalidad perfecta para cada dí, te llegan surtidos.",
     imagen: "/products/98.png",
     categoria: "Labiales"
   },
@@ -279,7 +279,7 @@ const ProductosUno = [
     id: 22,
     nombre: "Gloss de textura suave",
     precio: "13000",
-    ingredientes: "Un lip combo que será tu compañí a donde quiera que vayas gracias a su tamaño.",
+    descripcion: "Un lip combo que será tu compañí a donde quiera que vayas gracias a su tamaño.",
     imagen: "/products/52.png",
     categoria: "Labiales"
   },
@@ -289,7 +289,7 @@ const ProductosUno = [
     id: 23,
     nombre: "Delineador Trendy",
     precio: "5000",
-    ingredientes: "Delineador cremoso, súper pigmentado.",
+    descripcion: "Delineador cremoso, súper pigmentado.",
     imagen: "/products/3.png",
     categoria: "Delineadores"
   },
@@ -297,7 +297,7 @@ const ProductosUno = [
     id: 24,
     nombre: "Delineador Doble Cat Eye",
     precio: "16000",
-    ingredientes: "Delineador doble punta en color negro.En un extremo encuentras una estampita de cola de gato y en el otro extremo tienes un plumón para lograr trazos finos.",
+    descripcion: "Delineador doble punta en color negro.En un extremo encuentras una estampita de cola de gato y en el otro extremo tienes un plumón para lograr trazos finos.",
     imagen: "/products/90.png",
     categoria: "Delineadores"
   },
@@ -305,7 +305,7 @@ const ProductosUno = [
     id: 25,
     nombre: "Delineador En Plumón Doble",
     precio: "16000",
-    ingredientes: "Delineador doble punta en color negro.Viene con una punta delgada y otra punta mediana",
+    descripcion: "Delineador doble punta en color negro.Viene con una punta delgada y otra punta mediana",
     imagen: "/products/73.png",
     categoria: "Delineadores"
   },
@@ -314,7 +314,7 @@ const ProductosUno = [
     id: 26,
     nombre: "Delineador de Glitter",
     precio: "9000",
-    ingredientes: "Realiza trazos pequeños hasta obtener la forma y saturación deseada.",
+    descripcion: "Realiza trazos pequeños hasta obtener la forma y saturación deseada.",
     imagen: "/products/43.png",
     categoria: "Delineadores"
   },
@@ -322,7 +322,7 @@ const ProductosUno = [
     id: 27,
     nombre: "Delineador En Plumón Trendy Pin Up",
     precio: "16000",
-    ingredientes: "El Delineador En Plumón Pin Up Trendy es a prueba de agua, sudor o calor. ",
+    descripcion: "El Delineador En Plumón Pin Up Trendy es a prueba de agua, sudor o calor. ",
     imagen: "/products/47.png",
     categoria: "Delineadores"
   },
@@ -330,7 +330,7 @@ const ProductosUno = [
     id: 28,
     nombre: "Lápiz de ojos Trendy",
     precio: "13000",
-    ingredientes: "",
+    descripcion: "",
     imagen: "/products/59.png",
     categoria: "Delineadores"
   },
@@ -339,7 +339,7 @@ const ProductosUno = [
     id: 29,
     nombre: "Delineador Pearl Trendy",
     precio: "7000",
-    ingredientes: "Dale un toque único y especial a tus looks con nuestros Delineadores Perlados. Excelente pigmentación, Acabado brillante.",
+    descripcion: "Dale un toque único y especial a tus looks con nuestros Delineadores Perlados. Excelente pigmentación, Acabado brillante.",
     imagen: "/products/99.png",
     categoria: "Delineadores"
   },
@@ -347,7 +347,7 @@ const ProductosUno = [
     id: 30,
     nombre: "Kit X 2 Delineadores Stitch",
     precio: "25000",
-    ingredientes: "Logra delineados de profesional con las herramientas correctas.",
+    descripcion: "Logra delineados de profesional con las herramientas correctas.",
     imagen: "/products/71.png",
     categoria: "Delineadores"
   },
@@ -358,7 +358,7 @@ const ProductosUno = [
     id: 31,
     nombre: "Polvos Premium Golden",
     precio: "27000",
-    ingredientes: "Logra un acabado suave y completamente mate",
+    descripcion: "Logra un acabado suave y completamente mate",
     imagen: "/products/16.png",
     categoria: "Rostro"
   },
@@ -366,7 +366,7 @@ const ProductosUno = [
     id: 32,
     nombre: "Blush Donnut",
     precio: "13000",
-    ingredientes: "Se adapta a todos los tonos de tu piel, es de alta pigmentación, muy suave y fácil de difunimar",
+    descripcion: "Se adapta a todos los tonos de tu piel, es de alta pigmentación, muy suave y fácil de difunimar",
     imagen: "/products/17.png",
     categoria: "Rostro"
   },
@@ -374,7 +374,7 @@ const ProductosUno = [
     id: 33,
     nombre: "Coctel de Cejas (Betún + polvo)",
     precio: "21000",
-    ingredientes: "Es el producto perfecto para tus cejas. Vienen con un tono universal que le va muy bien a todos los tonos de piel.",
+    descripcion: "Es el producto perfecto para tus cejas. Vienen con un tono universal que le va muy bien a todos los tonos de piel.",
     imagen: "/products/10.png",
     categoria: "Rostro"
   },
@@ -382,7 +382,7 @@ const ProductosUno = [
     id: 34,
     nombre: "Sombra Terra",
     precio: "16000",
-    ingredientes: "Paleta ideal para looks diarios en tonos tierra",
+    descripcion: "Paleta ideal para looks diarios en tonos tierra",
     imagen: "/products/9.png",
     categoria: "Rostro"
   },
@@ -390,7 +390,7 @@ const ProductosUno = [
     id: 35,
     nombre: "Contorno en barra doble con Rubor",
     precio: "16000",
-    ingredientes: "Rubor y contorno de alta pigmentación que se acomoda perfectamente a todos los tonos de piel.",
+    descripcion: "Rubor y contorno de alta pigmentación que se acomoda perfectamente a todos los tonos de piel.",
     imagen: "/products/7.png",
     categoria: "Rostro"
   },
@@ -398,7 +398,7 @@ const ProductosUno = [
     id: 36,
     nombre: "Kit dúo Safari Blush",
     precio: "27000",
-    ingredientes: "Tiene una textura cremosa premium que se difumina muy fácil con brocha, esponja o con los dedos.",
+    descripcion: "Tiene una textura cremosa premium que se difumina muy fácil con brocha, esponja o con los dedos.",
     imagen: "/products/6.png",
     categoria: "Rostro"
   },
@@ -406,7 +406,7 @@ const ProductosUno = [
     id: 37,
     nombre: "Kit X 4 Quesito Hightouille",
     precio: "22000",
-    ingredientes: "Un cuarteto que eleva desde look más sencillo hasta el más sofisticado. ",
+    descripcion: "Un cuarteto que eleva desde look más sencillo hasta el más sofisticado. ",
     imagen: "/products/4.png",
     categoria: "Rostro"
   },
@@ -414,7 +414,7 @@ const ProductosUno = [
     id: 38,
     nombre: "Polvos Bakery Flour",
     precio: "22000",
-    ingredientes: "Los polvos traslúcidos, perfecto para sellar tu maquillaje. No te aporta color ni covertura.",
+    descripcion: "Los polvos traslúcidos, perfecto para sellar tu maquillaje. No te aporta color ni covertura.",
     imagen: "/products/1.png",
     categoria: "Rostro"
   },
@@ -422,7 +422,7 @@ const ProductosUno = [
     id: 39,
     nombre: "Iluminador Eclipse Lunar",
     precio: "16000",
-    ingredientes: "Su acabado es satinado, no escarchado. Te da un brillo muy natural por sus pigmentos perlados.",
+    descripcion: "Su acabado es satinado, no escarchado. Te da un brillo muy natural por sus pigmentos perlados.",
     imagen: "/products/95.png",
     categoria: "Rostro"
   },
@@ -430,7 +430,7 @@ const ProductosUno = [
     id: 40,
     nombre: "Rubor lluminador Barra Retro Stick",
     precio: "22000",
-    ingredientes: "¡Un dúo infaltable te espera! Un maquillaje básico se vuelve premium con tan solo un rubor y un toque de iluminador.",
+    descripcion: "¡Un dúo infaltable te espera! Un maquillaje básico se vuelve premium con tan solo un rubor y un toque de iluminador.",
     imagen: "/products/94.png",
     categoria: "Rostro"
   },
@@ -438,7 +438,7 @@ const ProductosUno = [
     id: 41,
     nombre: "Rubor En Crema Star",
     precio: "16000",
-    ingredientes: "Un rubor ideal para lograr un acabado fresco y radiante.",
+    descripcion: "Un rubor ideal para lograr un acabado fresco y radiante.",
     imagen: "/products/93.png",
     categoria: "Rostro"
   },
@@ -446,7 +446,7 @@ const ProductosUno = [
     id: 42,
     nombre: "Rubor Eclipse Lunar",
     precio: "12000",
-    ingredientes: "Este rubor solito o para sellar el rubor lÃ­quido es perfecto. Vienen 4 tonos diferentes. Te puede llegar cualquier tono, todos son preciosos.",
+    descripcion: "Este rubor solito o para sellar el rubor lÃ­quido es perfecto. Vienen 4 tonos diferentes. Te puede llegar cualquier tono, todos son preciosos.",
     imagen: "/products/92.png",
     categoria: "Rostro"
   },
@@ -454,7 +454,7 @@ const ProductosUno = [
     id: 43,
     nombre: "Fijador Dreams 60 ml",
     precio: "16000",
-    ingredientes: "Mantén tu maquillaje intacto y a prueba de todo con el Fijador Dreams.",
+    descripcion: "Mantén tu maquillaje intacto y a prueba de todo con el Fijador Dreams.",
     imagen: "/products/89.png",
     categoria: "Piel"
   },
@@ -462,7 +462,7 @@ const ProductosUno = [
     id: 44,
     nombre: "Sombra Cosmos",
     precio: "26000",
-    ingredientes: "¡Nunca está de más un iluminador! El iluminador tiene un propósito en cada uno de los looks que quieres lograr y es elevar tu rostro. ",
+    descripcion: "¡Nunca está de más un iluminador! El iluminador tiene un propósito en cada uno de los looks que quieres lograr y es elevar tu rostro. ",
     imagen: "/products/88.png",
     categoria: "Rostro"
   },
@@ -470,7 +470,7 @@ const ProductosUno = [
     id: 45,
     nombre: "Sombra Sunset",
     precio: "27000",
-    ingredientes: "Maquillarte debe ser tu terapia personal. Esta paleta contiene los tonos de acabado mate infaltables para todas. ",
+    descripcion: "Maquillarte debe ser tu terapia personal. Esta paleta contiene los tonos de acabado mate infaltables para todas. ",
     imagen: "/products/87.png",
     categoria: "Rostro"
   },
@@ -478,7 +478,7 @@ const ProductosUno = [
     id: 46,
     nombre: "Jabón Facial Trendy Skincar",
     precio: "36000",
-    ingredientes: "Su fórmula es muy suave y delicada con tu piel, por eso no sentiras que nace mucha espuma ya que no contiene sulfatos y no necesita hacer espuma para realizar bien su trabajo.",
+    descripcion: "Su fórmula es muy suave y delicada con tu piel, por eso no sentiras que nace mucha espuma ya que no contiene sulfatos y no necesita hacer espuma para realizar bien su trabajo.",
     imagen: "/products/86.png",
     categoria: "Piel"
   },
@@ -486,7 +486,7 @@ const ProductosUno = [
     id: 47,
     nombre: "Kit De Cejas Villanos ",
     precio: "15000",
-    ingredientes: "Con una brocha aplica la pomada para definir las cejas. Usa el polvo para fijar la pomada y así asegurar su duración. Para dar un toque de brillo, aplica el iluminador debajo del arco de tu ceja",
+    descripcion: "Con una brocha aplica la pomada para definir las cejas. Usa el polvo para fijar la pomada y así asegurar su duración. Para dar un toque de brillo, aplica el iluminador debajo del arco de tu ceja",
     imagen: "/products/100.png",
     categoria: "Rostro"
   },
@@ -494,7 +494,7 @@ const ProductosUno = [
     id: 48,
     nombre: "Primer Menta Trendy",
     precio: "16000",
-    ingredientes: "Deja un acabado luminoso perfecto para lucir una piel sana y radiante.          Deja actuar 2-3 minutos y ya puedes aplicar tu base de maquillaje.",
+    descripcion: "Deja un acabado luminoso perfecto para lucir una piel sana y radiante.          Deja actuar 2-3 minutos y ya puedes aplicar tu base de maquillaje.",
     imagen: "/products/44.png",
     categoria: "Piel"
   },
@@ -502,7 +502,7 @@ const ProductosUno = [
     id: 49,
     nombre: "Polvos Sueltos Master Touch",
     precio: "26000",
-    ingredientes: "Los polvos sueltos son un infaltable en la rutina de maquillaje ya que nos ayudan a sellar los productos cremosos para que su durabilidad sea más prolongada y evitar el exceso de sebo durante el día.",
+    descripcion: "Los polvos sueltos son un infaltable en la rutina de maquillaje ya que nos ayudan a sellar los productos cremosos para que su durabilidad sea más prolongada y evitar el exceso de sebo durante el día.",
     imagen: "/products/49.png",
     categoria: "Rostro"
   },
@@ -510,7 +510,7 @@ const ProductosUno = [
     id: 50,
     nombre: "Iluminador LÃ­quido Brilla Trendy ",
     precio: "10000",
-    ingredientes: "Deslumbra tus maquillajes de la mano con estos iluminadores! Este iluminador le agrega un plus sutil a tus looks.",
+    descripcion: "Deslumbra tus maquillajes de la mano con estos iluminadores! Este iluminador le agrega un plus sutil a tus looks.",
     imagen: "/products/51.png",
     categoria: "Rostro"
   },
@@ -518,7 +518,7 @@ const ProductosUno = [
     id: 51,
     nombre: "Corrector Profesional Magic Pequeño ",
     precio: "5000",
-    ingredientes: "Es un corrector para unificar y corregir las manchitas de tu rostro.",
+    descripcion: "Es un corrector para unificar y corregir las manchitas de tu rostro.",
     imagen: "/products/48.png",
     categoria: "Rostro"
   },
@@ -528,7 +528,7 @@ const ProductosUno = [
     id: 52,
     nombre: "Polvo de Hadas",
     precio: "15000",
-    ingredientes: "Puedes aplicarlo en el rostro, pecho, hombro, brazos, y si quieres que te dure mucho más puedes sellarlo con un poco de fijador o tónico de rosas ",
+    descripcion: "Puedes aplicarlo en el rostro, pecho, hombro, brazos, y si quieres que te dure mucho más puedes sellarlo con un poco de fijador o tónico de rosas ",
     imagen: "/products/14.png",
     categoria: "Piel"
   },
@@ -536,7 +536,7 @@ const ProductosUno = [
     id: 53,
     nombre: "Papeleta Antigrasa",
     precio: "16000",
-    ingredientes: "Quita la grasa sin afectar el maquillaje. ",
+    descripcion: "Quita la grasa sin afectar el maquillaje. ",
     imagen: "/products/8.png",
     categoria: "Piel"
   },
@@ -545,7 +545,7 @@ const ProductosUno = [
     id: 54,
     nombre: "Espuma Desmaquillante",
     precio: "27000",
-    ingredientes: "Limpia tu rostro de bacterias que se encuentra en los poros.  ",
+    descripcion: "Limpia tu rostro de bacterias que se encuentra en los poros.  ",
     imagen: "/products/2.png",
     categoria: "Piel"
   },
@@ -554,7 +554,7 @@ const ProductosUno = [
     id: 55,
     nombre: "Primer Rosas grande",
     precio: "17000",
-    ingredientes: "Su fórmula es hidratante, suave y delicada con la piel, no obstruye los poros por lo que puede ser utilizado todos los días.",
+    descripcion: "Su fórmula es hidratante, suave y delicada con la piel, no obstruye los poros por lo que puede ser utilizado todos los días.",
     imagen: "/products/74.png",
     categoria: "Piel"
   },
@@ -563,7 +563,7 @@ const ProductosUno = [
     id: 56,
     nombre: "Mascarilla Stickers Para Acné",
     precio: "17000",
-    ingredientes: "Estos stickers serán la solución para esos molestos granitos y reducirlos rápidamente.",
+    descripcion: "Estos stickers serán la solución para esos molestos granitos y reducirlos rápidamente.",
     imagen: "/products/84.png",
     categoria: "Piel"
   },
@@ -571,7 +571,7 @@ const ProductosUno = [
     id: 57,
     nombre: "Desmaquillante Bifásico",
     precio: "22000",
-    ingredientes: "Desmaquillarnos ya no será la parte aburrida y demorada!. Con el desmaquillante bifásico solo deberás agitar y aplicar unas cuantas gotas para retirar tu maquillaje.",
+    descripcion: "Desmaquillarnos ya no será la parte aburrida y demorada!. Con el desmaquillante bifásico solo deberás agitar y aplicar unas cuantas gotas para retirar tu maquillaje.",
     imagen: "/products/79.png",
     categoria: "Piel"
   },
@@ -579,7 +579,7 @@ const ProductosUno = [
     id: 58,
     nombre: "Suero Detox Trendy",
     precio: "35000",
-    ingredientes: "Suero ideal para pieles mixtas y grasas",
+    descripcion: "Suero ideal para pieles mixtas y grasas",
     imagen: "/products/83.png",
     categoria: "Piel"
   },
@@ -587,7 +587,7 @@ const ProductosUno = [
     id: 59,
     nombre: "Kit Primer Y Fijador Rose",
     precio: "22000",
-    ingredientes: "¡Lleva dos productos que transformarán visiblemente tu piel! Este dúo práctico y versátil es ideal para llevar en tu cosmetiquera",
+    descripcion: "¡Lleva dos productos que transformarán visiblemente tu piel! Este dúo práctico y versátil es ideal para llevar en tu cosmetiquera",
     imagen: "/products/63.png",
     categoria: "Piel"
   },
@@ -597,7 +597,7 @@ const ProductosUno = [
     id: 60,
     nombre: "Kit Mini Favoritos Galaxy",
     precio: "140000",
-    ingredientes: "Descubre nuestro kit de mini favoritos en donde encontrarás tu maquillaje y skincare favorito. Vienen 16 productos + cosmetiquera",
+    descripcion: "Descubre nuestro kit de mini favoritos en donde encontrarás tu maquillaje y skincare favorito. Vienen 16 productos + cosmetiquera",
     imagen: "/products/108.png",
     categoria: "Rostro"
   },
@@ -605,7 +605,7 @@ const ProductosUno = [
     id: 69,
     nombre: "Encrespador de pestañas en color oro rosa.",
     precio: "16000",
-    ingredientes: "Riza tus pestañas en dos o tres puntos, depende de la longitud de tus pestañas. ",
+    descripcion: "Riza tus pestañas en dos o tres puntos, depende de la longitud de tus pestañas. ",
     imagen: "/products/19.png",
     categoria: "Accesorios"
   },
@@ -613,7 +613,7 @@ const ProductosUno = [
     id: 61,
     nombre: "Bolsa Papel mediana Rosada",
     precio: "3500",
-    ingredientes: "Empaca tus regalos de una manera única y hermosa. Bolsa de papel con un diseño hermoso de vaquera y sus accesorios.",
+    descripcion: "Empaca tus regalos de una manera única y hermosa. Bolsa de papel con un diseño hermoso de vaquera y sus accesorios.",
     imagen: "/products/75.png",
     categoria: "Accesorios"
   },
@@ -621,7 +621,7 @@ const ProductosUno = [
     id: 62,
     nombre: "Esponja Corazón Kit X2",
     precio: "22000",
-    ingredientes: "Con la Esponja Trendy Corazón conseguirás un acabado natural y profesional de todos los productos en crema, líquidos o en polvo. ",
+    descripcion: "Con la Esponja Trendy Corazón conseguirás un acabado natural y profesional de todos los productos en crema, líquidos o en polvo. ",
     imagen: "/products/41.png",
     categoria: "Accesorios"
   },
@@ -629,7 +629,7 @@ const ProductosUno = [
     id: 63,
     nombre: "Hair Clip Mariposa ",
     precio: "11000",
-    ingredientes: "Perfecto para usar en recogidos altos, semi recogidos o como un toque decorativo en peinados sueltos. Un accesorio que mezcla estilo y funcionalidad.",
+    descripcion: "Perfecto para usar en recogidos altos, semi recogidos o como un toque decorativo en peinados sueltos. Un accesorio que mezcla estilo y funcionalidad.",
     imagen: "/products/45.png",
     categoria: "Accesorios"
   },
@@ -637,7 +637,7 @@ const ProductosUno = [
     id: 64,
     nombre: "Pulsera Stich ",
     precio: "16000",
-    ingredientes: "Su diseño plateado es perfecto para combinar con cualquier prenda y lucir fabulosa.",
+    descripcion: "Su diseño plateado es perfecto para combinar con cualquier prenda y lucir fabulosa.",
     imagen: "/products/101.png",
     categoria: "Accesorios"
   },
@@ -645,7 +645,7 @@ const ProductosUno = [
     id: 65,
     nombre: "Cartera Trendy",
     precio: "18000",
-    ingredientes: "Viene en 7 tonos: Rosado, rosado animal print, negro, negro animal print, morado, beige y vino animal print.",
+    descripcion: "Viene en 7 tonos: Rosado, rosado animal print, negro, negro animal print, morado, beige y vino animal print.",
     imagen: "/products/82.png",
     categoria: "Accesorios"
   },
@@ -653,7 +653,7 @@ const ProductosUno = [
     id: 66,
     nombre: "Esponja Panda",
     precio: "12000",
-    ingredientes: "Consigue un acabado impecable con nuestra nueva esponja profesional ultra suave, una de las mejores calidades que hemos traído para ti, diseñada para difuminar tus productos líquidos, en crema o en polvo de forma uniforme",
+    descripcion: "Consigue un acabado impecable con nuestra nueva esponja profesional ultra suave, una de las mejores calidades que hemos traído para ti, diseñada para difuminar tus productos líquidos, en crema o en polvo de forma uniforme",
     imagen: "/products/67.png",
     categoria: "Accesorios"
   },
@@ -661,7 +661,7 @@ const ProductosUno = [
     id: 67,
     nombre: "Rubor En Barra Barbie Vaquera",
     precio: "16000",
-    ingredientes: "un empaque premium que lo hace aún más especial, diseñados para resaltar tu belleza con un tono natural para todos los días.",
+    descripcion: "un empaque premium que lo hace aún más especial, diseñados para resaltar tu belleza con un tono natural para todos los días.",
     imagen: "/products/69.png",
     categoria: "Rostro"
   },
@@ -669,7 +669,7 @@ const ProductosUno = [
     id: 68,
     nombre: "Corrector De Ojeras Aura",
     precio: "22000",
-    ingredientes: "El Corrector Aura es tu aliado ideal para lograr un maquillaje fresco y natural todos los días.",
+    descripcion: "El Corrector Aura es tu aliado ideal para lograr un maquillaje fresco y natural todos los días.",
     imagen: "/products/66.png",
     categoria: "Rostro"
   },
@@ -677,7 +677,7 @@ const ProductosUno = [
     id: 70,
     nombre: "Pestañina Fortalecedora Fresh Trendy",
     precio: "16000",
-    ingredientes: "Pestañina transparente que aporta fijación sin maltratar tus pestañas.",
+    descripcion: "Pestañina transparente que aporta fijación sin maltratar tus pestañas.",
     imagen: "/products/70.png",
     categoria: "Rostro"
   },
@@ -685,7 +685,7 @@ const ProductosUno = [
     id: 71,
     nombre: "Pestañina Cat Trendy",
     precio: "16000",
-    ingredientes: "Cepillo en goma: ideal para todo tipo de pestañas, de cualquier tamaño, cortas medianas o largas.",
+    descripcion: "Cepillo en goma: ideal para todo tipo de pestañas, de cualquier tamaño, cortas medianas o largas.",
     imagen: "/products/58.png",
     categoria: "Rostro"
   },
@@ -693,7 +693,7 @@ const ProductosUno = [
     id: 72,
     nombre: "Pestañina Barbie Vaquera",
     precio: "16000",
-    ingredientes: "Define, alarga y realza tu mirada al instante. Su cepillo de nylon en forma de espiral alcanza cada pestaña para separarlas y mantener el rizo por horas.",
+    descripcion: "Define, alarga y realza tu mirada al instante. Su cepillo de nylon en forma de espiral alcanza cada pestaña para separarlas y mantener el rizo por horas.",
     imagen: "/products/76.png",
     categoria: "Rostro"
   },
@@ -701,7 +701,7 @@ const ProductosUno = [
     id: 73,
     nombre: "Kit Brochas Cejas Orgánicas X2 Und",
     precio: "12000",
-    ingredientes: "Cejas on point siempre con nuestro cepillo doble para cejas. Peina y da forma a las cejas logrando un acabado definido y pulido.",
+    descripcion: "Cejas on point siempre con nuestro cepillo doble para cejas. Peina y da forma a las cejas logrando un acabado definido y pulido.",
     imagen: "/products/104.png",
     categoria: "Accesorios"
   },
@@ -709,7 +709,7 @@ const ProductosUno = [
     id: 74,
     nombre: "Brocha Trendy Doble Cejas Cepillo",
     precio: "10000",
-    ingredientes: "Brocha dual para cejas con cepillo. Es una brocha dual de línea económica, con excelente calidad y de pelo sintético.",
+    descripcion: "Brocha dual para cejas con cepillo. Es una brocha dual de línea económica, con excelente calidad y de pelo sintético.",
     imagen: "/products/106.png",
     categoria: "Accesorios"
   },
@@ -717,7 +717,7 @@ const ProductosUno = [
     id: 75,
     nombre: "Primer Masmelo Trendy",
     precio: "26000",
-    ingredientes: "Primer con efecto Masmelo, una textura diferente a los primers en gel tradicionales.",
+    descripcion: "Primer con efecto Masmelo, una textura diferente a los primers en gel tradicionales.",
     imagen: "/products/105.png",
     categoria: "Piel"
   },
@@ -725,11 +725,90 @@ const ProductosUno = [
     id: 76,
     nombre: "Cosmetiquera Cuerina Trendy",
     precio: "36000",
-    ingredientes: "Perfecta para llevar de viaje o en el bolso diario. Viene con dos compartimientos: Uno para almacenar brochas y el segundo es más amplio",
+    descripcion: "Perfecta para llevar de viaje o en el bolso diario. Viene con dos compartimientos: Uno para almacenar brochas y el segundo es más amplio",
     imagen: "/products/107.png",
     categoria: "Accesorios"
   },
-  
+  {
+    id: 77,
+    nombre: "Polvo De Hadas Golden",
+    precio: "13000",
+    descripcion: "¡Tu polvo de hadas favorito ahora en versión dorada y mini! Utilízalo directamente sobre tu piel, cabello o ropa y brilla como nunca.",
+    imagen: "/products/50.png",
+    categoria: "Piel"
+  },
+  {
+    id: 78,
+    nombre: "Borla Triangular Morada",
+    precio: "7000",
+    descripcion: "Viene en forma triangular, lo que facilita llegar a zonas como el contorno de ojos y las comisuras de la nariz.",
+    imagen: "/products/110.png",
+    categoria: "Accesorios  "
+  },
+  {
+    id: 79,
+    nombre: "Crema Mantequilla Watermelon",
+    precio: "30000",
+    descripcion: "Déjate envolver por su aroma dulce y refrescante a sandía, acompañado de brillos dorados que aportan un toque luminoso a la piel.",
+    imagen: "/products/112.png",
+    categoria: "Piel"
+  },
+  {
+    id: 80,
+    nombre: "Sombra Brow Blend",
+    precio: "12000",
+    descripcion: "Vienen dos colores cafés en cada empaque, uno oscuro y otro más claro. La pigmentación permite lograr un acabado natural. Viene un tono por display.",
+    imagen: "/products/113.png",
+    categoria: "Rostro"
+  },
+  {
+    id: 81,
+    nombre: "Kit Rubores Toy Ref ",
+    precio: "16000",
+    descripcion: "El rubor en crema es de textura suave y liviana que aporta un tono rosa intenso a las mejillas. Su alta pigmentación y acabado mate garantizan un efecto prolijo y de larga duración.",
+    imagen: "/products/114.png",
+    categoria: "Rostro"
+  },
+  {
+    id: 82,
+    nombre: "Delineador Level Up de Trendy ",
+    precio: "11000",
+    descripcion: "Un extremo con sombra líquida satinada de alta pigmentación y aplicador de punta fina, ideal para usar también como delineador perlado. Su otro extremo contiene la sombra cremosa tipo mantequilla, la cual se difumina fácilmente sin dejar parches. Son de excelente adherencia y durabilidad.",
+    imagen: "/products/115.png",
+    categoria: "Rostro"
+  },
+  {
+    id: 83,
+    nombre: "Kit Cat Face",
+    precio: "16000",
+    descripcion: "3 infaltables en un compacto y práctico empaque de pisos. El nuevo Cat Face, contiene un rubor en tono rosita durazno para tus mejillas, un iluminador en tono oro rosa perfecto para utilizar como iluminador y un bronzer en crema en tono universal.",
+    imagen: "/products/116.png",
+    categoria: "Rostro"
+  },
+  {
+    id: 84,
+    nombre: "Sombra Bear Trendy",
+    precio: "15000",
+    descripcion: "Las sombras Bear son ideales en toda ocasión. Vienen 2 referencias que se envían surtidas. Contiene tonos tierra y rositas súper sútiles perfectos para maquillajes coquetos.",
+    imagen: "/products/111.png",
+    categoria: "Rostro"
+  },
+  {
+    id: 85,
+    nombre: "Sombra Color Rosa",
+    precio: "26000",
+    descripcion: "¡Un producto pensado para las aficionadas a lo pinky! En Trendy queremos traerte diseños cada vez más completos y hermosos, esta paleta es una de ellas.",
+    imagen: "/products/117.png",
+    categoria: "Rostro"
+  },
+  {
+    id: 86,
+    nombre: "Polvos Sueltos Bakery Fluor",
+    precio: "22000",
+    descripcion: "Los polvos traslúcidos, perfecto para sellar tu maquillaje. No te aporta color ni covertura.",
+    imagen: "/products/109.png",
+    categoria: "Rostro"
+  },
 ]
 
 const Categorias = ["Labiales", "Accesorios", "Delineadores", "Rostro", "Piel"]
@@ -787,7 +866,7 @@ ${ramo ? `Me interesa algo similar a: ${ramo.nombre} ($${ramo.precio}).` : ""}
 
   const ProductosFiltrados = terminoBusqueda
     ? ProductosPorCategoria.filter((prod) => {
-      const texto = `${prod.nombre} ${prod.ingredientes}`.toLowerCase();
+      const texto = `${prod.nombre} ${prod.descripcion}`.toLowerCase();
       return texto.includes(terminoBusqueda.toLowerCase());
     })
     : ProductosPorCategoria;
@@ -952,7 +1031,7 @@ ${ramo ? `Me interesa algo similar a: ${ramo.nombre} ($${ramo.precio}).` : ""}
                 id={item.id}
                 nombre={item.nombre}
                 precio={item.precio}
-                ingredientes={item.ingredientes}
+                descripcion={item.descripcion}
                 imagen={item.imagen} />
             </motion.div>
           );
@@ -1045,10 +1124,10 @@ ${ramo ? `Me interesa algo similar a: ${ramo.nombre} ($${ramo.precio}).` : ""}
           borderRadius: "10px",
           fontWeight: "600",
           cursor: "pointer",
-          color:"white"
+          color: "white"
         }}
       >
-        <FaComments style={{ marginRight: "0.5em", color:"white" }} /> !Quiero un ramo personalizado¡
+        <FaComments style={{ marginRight: "0.5em", color: "white" }} /> !Quiero un ramo personalizado¡
       </motion.button>
 
       <AnimatePresence>
@@ -1083,7 +1162,7 @@ ${ramo ? `Me interesa algo similar a: ${ramo.nombre} ($${ramo.precio}).` : ""}
 
                 {/* <div className="modal-info">
                   <h2 className="modal-title">{ramoSeleccionado.nombre}</h2>
-                  <p className="modal-ingredientes">{ramoSeleccionado.descripcion}</p>
+                  <p className="modal-descripcion">{ramoSeleccionado.descripcion}</p>
 
                   <h3 className="modal-price">
                     $ {Number(ramoSeleccionado.precio).toLocaleString()}
