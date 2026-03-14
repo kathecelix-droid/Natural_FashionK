@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { IoClose } from "react-icons/io5";
 import { IoExpandOutline } from "react-icons/io5";
 
-const CardProduct = ({ id, nombre, ingredientes, precio, imagen }) => {
+const CardProduct = ({ id, nombre, descripcion, precio, imagen }) => {
 
     const [Contador, SetContador] = useState(1);
     const SumarContador = () => SetContador(Contador + 1);
@@ -69,7 +69,7 @@ const CardProduct = ({ id, nombre, ingredientes, precio, imagen }) => {
                 </div>
 
                 <h4>{nombre}</h4>
-                <p style={{ padding: "0.5em" }}>{ingredientes}</p>
+                <p style={{ padding: "0.5em" }}>{descripcion}</p>
 
                 {/* ⚠️ Evita que al clickear botones se abra el modal */}
                 <div className='contadorycomprar' onClick={(e) => e.stopPropagation()}>
@@ -128,7 +128,7 @@ const CardProduct = ({ id, nombre, ingredientes, precio, imagen }) => {
 
                                 {/* <div className="modal-info">
                   <h2 className="modal-title">{nombre}</h2>
-                  <p className="modal-ingredientes">{ingredientes}</p>
+                  <p className="modal-descripcion">{descripcion}</p>
 
                   <h3 className="modal-price">$ {precio.toLocaleString()}</h3>
 
