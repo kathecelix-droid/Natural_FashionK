@@ -809,6 +809,14 @@ const ProductosUno = [
     imagen: "/products/109.png",
     categoria: "Rostro"
   },
+  {
+    id: 87,
+    nombre: "Prueba",
+    precio: "220000",
+    descripcion: "Esto es una prueba",
+    imagen: "/products/prueba.png",
+    categoria: "Rostro"
+  },
 ]
 
 const Categorias = ["Labiales", "Accesorios", "Delineadores", "Rostro", "Piel"]
